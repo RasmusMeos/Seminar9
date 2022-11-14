@@ -1,3 +1,39 @@
-h1 {
-    color: blueviolet;
+h2 {display: inline-block;
+    padding-right: 0.5cm;
+    font-family: 'Open Sans';
+    font-size: larger;
 }
+.kastid{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 0.1mm; 
+
+    
+    width: 50%; 
+} 
+.Galerii { 
+    margin: 10px; 
+    border: 1px solid black; 
+    width: 14cm;
+    height: 14cm;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS';
+}
+.Google_maps { 
+    margin: 10px; 
+    border: 1px solid black; 
+    width: 14cm;
+    height: 7cm;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS';
+}
+h4 {text-align: right;
+    font-family: 'Trebuchet MS';
+    font-size: large;}
+
+h1 {font-family: 'Trebuchet MS';
+    font-size: xx-large;}
+  html {background-color: rgb(255, 245, 231);
+background-image: -webkit-repeating-radial-gradient();}
